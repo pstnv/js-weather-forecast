@@ -2,7 +2,7 @@
 <a href="https://pstnv-weather-forecast.glitch.me/"> https://pstnv-weather-forecast.glitch.me </a>
 
 <div align="center">
-  <img src="https://cdn.glitch.global/ece60b40-3830-4d48-bb12-fa238aabf422/picPreview_8.png?v=1661081037547">
+  <img src="src/pics/preview.png">
 </div>
 <br>
 
