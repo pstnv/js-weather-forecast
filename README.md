@@ -1,5 +1,5 @@
 <h1> Прогноз погоды </h1>
-<a href="https://pstnv-weather-forecast.glitch.me/"> https://pstnv-weather-forecast.glitch.me </a>
+<a href="https://pstnv.github.io/js-weather-forecast/"> https://pstnv.github.io/js-weather-forecast </a>
 
 <div align="center">
   <img src="src/pics/preview.png">
