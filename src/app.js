@@ -1,6 +1,6 @@
 require("dotenv").config();
 const city = require("./routes/city");
-const notFound = require("./middleware/not-found");
+const notFound = require("./middleware/notFound");
 
 const express = require("express");
 const app = express();
