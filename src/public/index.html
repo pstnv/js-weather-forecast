@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Wheather App</title>
+        <link rel="icon" href="data:," />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="searchInner">
+                <form id="search">
+                    <input
+                        name="city"
+                        id="input"
+                        type="text"
+                        spellcheck="false"
+                        placeholder="Enter a city"
+                    />
+                    <button id="btn" type="submit">
+                        <img
+                            src="https://cdn.glitch.global/5474323d-6d98-415b-a60e-1eb0755bddf4/icon-search.png?v=1653480486544"
+                            alt="start search"
+                        />
+                    </button>
+                </form>
+                <p class="notFound">No results found</p>
+            </div>
+            <div id="main">
+                <div id="weatherPic"></div>
+                <p id="city"></p>
+                <p id="temp"></p>
+                <p id="weekDay"></p>
+                <p id="date"></p>
+            </div>
+            <div id="coming"></div>
+            <div id="details">
+                <h3 class="detailsHeader"></h3>
+                <hr />
+                <p id="feelsLike"><span></span></p>
+                <p id="conditions"></p>
+                <p id="wind"></p>
+                <p id="humidity"></p>
+                <p id="pressure"></p>
+                <hr />
+            </div>
+        </div>
+        <script type="module" src="js/script.js"></script>
+    </body>
+</html>
