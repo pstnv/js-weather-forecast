@@ -2,7 +2,7 @@ import fillInfo from "./fillInfo.js";
 
 const form = document.querySelector("#search");
 const noResults = document.querySelector(".notFound");
-const DEFAULT_CITY = { city: "Mars" };
+const DEFAULT_CITY = { city: "Marselle" };
 
 
 async function getData(location = {}) {
