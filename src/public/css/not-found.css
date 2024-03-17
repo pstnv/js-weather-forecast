@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../src/pics/bg.jpg");
+    background-image: url("../assets/pics/bg.jpg");
     background-color: rgba(218, 203, 236);
     background-position: center;
     background-repeat: no-repeat;
