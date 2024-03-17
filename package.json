@@ -2,7 +2,7 @@
     "name": "weather-app",
     "version": "1.0.0",
     "description": "weather-app",
-    "main": "src/app.js",
+    "main": "app.js",
     "author": {
         "name": "Irina Postnova",
         "email": "pstnvm@mail.ru"
@@ -13,8 +13,8 @@
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node ./src/app.js",
-        "build": "nodemon ./src/app.js"
+        "start": "node src/app.js",
+        "dev": "nodemon src/app.js"
     },
     "license": "ISC",
     "dependencies": {
