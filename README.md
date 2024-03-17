@@ -2,21 +2,21 @@
 <a href="https://pstnv.github.io/js-weather-forecast/"> https://pstnv.github.io/js-weather-forecast </a>
 
 <div align="center">
-  <img src="src/pics/preview.png">
+  <img src="src/public/assets/pics/preview.png">
 </div>
 <br>
 
 <h2> О проекте </h2>
-<p> Приложение создано с использованием метода fetch() и данных <a href="https://openweathermap.org/"> https://openweathermap.org </a>. </p>
+<p> Приложение создано с использованием API <a href="https://openweathermap.org/"> https://openweathermap.org </a>. </p>
 <br>
 
 <h2> Используемые технологии </h2>
-<p> HTML5 | CSS3 | JavaScript | API | GSAP</p>
+<p> HTML5 | CSS3 | JavaScript | API | Node.js | Express | dotenv </p>
 <br>
 
 <h2>Особенности</h2>
 <ul>
+  <li> разрешите использование геопозиции для прогноза погоды по текущему местоположению </li>
   <li> в поле ввода введите название города и нажмите на Лупу или Enter </li>
-  <li> использована анимация для плавного появления элементов </li>
   <li> сайт адаптирован под мобильные устройства </li>
 </ul>
