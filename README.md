@@ -1,5 +1,5 @@
 <h1> Прогноз погоды </h1>
-<a href="https://pstnv.github.io/js-weather-forecast/"> https://pstnv.github.io/js-weather-forecast </a>
+<a href="https://js-weather-forecast.onrender.com/"> https://js-weather-forecast.onrender.com/ </a>
 
 <div align="center">
   <img src="src/public/assets/pics/preview.png">
