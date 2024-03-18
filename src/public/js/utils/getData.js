@@ -6,7 +6,7 @@ const DEFAULT_CITY = { city: "Marselle" };
 
 async function getData(location = {}) {
     const { city, latitude, longitude } = location;
-    console.log("getData, location is...");
+    console.log("getData, location is...", location);
     const link = city
         ? `/city/${city}`
         : `/city/?lat=${latitude}&lon=${longitude}`;
