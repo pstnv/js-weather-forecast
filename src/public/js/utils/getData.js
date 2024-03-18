@@ -4,15 +4,18 @@ const form = document.querySelector("#search");
 const noResults = document.querySelector(".notFound");
 const DEFAULT_CITY = { city: "Marselle" };
 
-
 async function getData(location = {}) {
     const { city, latitude, longitude } = location;
+    console.log("getData, location is...");
     const link = city
         ? `/city/${city}`
         : `/city/?lat=${latitude}&lon=${longitude}`;
+    console.log(link);
     try {
         const response = await fetch(link);
+        console.log("response is...", response);
         const { data, message } = await response.json();
+        console.log("data после деструктуризации", data);
         if (Math.floor(response.status / 100) !== 2) {
             throw new Error(message);
         }
